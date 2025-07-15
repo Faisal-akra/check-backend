@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://check-frontend-pnbv.vercel.app",
     credentials: true,
   })
 );
